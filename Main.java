@@ -20,7 +20,7 @@ public class Main
 
 
     theArrayList.remove(theArrayList.size()-1);
-    System.out.println("Exited loop. ArrayList is now " +\n + theArrayList.size() + \n + theArrayList);
+    System.out.println("Exited loop. ArrayList is now " +" \n" + theArrayList.size() + "\n" + theArrayList);
     theArrayList.set(theArrayList.size()-1, theArrayList.get(0));
     if (theArrayList.size() > 2)
     {
